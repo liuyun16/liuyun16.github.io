@@ -16,3 +16,11 @@ Markdown测试：
 > 引用
 
 **加粗**
+
+$$E=mc^2$$ is a inline formula
+
+$$ 
+\begin{aligned} \dot{x} &= \sigma(y-x) \\ 
+\dot{y} &= \rho x - y - xz \\ 
+\dot{z} &= -\beta z + xy \end{aligned} 
+$$
