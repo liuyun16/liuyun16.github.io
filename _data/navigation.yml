@@ -14,7 +14,7 @@ main:
   #  url: /tags/
   - title: "技术"
     url: /Techs/
-  - title: "STM Gallery"
-    url: /gallery/
+  #- title: "STM Gallery"
+  #  url: /gallery/
   - title: "About"
     url:  /About/

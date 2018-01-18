@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "刘云的博客"
 title_separator          : "-"
 name                     : "刘云"
-description              : "An amazing website."
+description              : "点滴记录，文字安人"
 url                      : "https://liuyun16.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "刘云"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "物理化学博士"
   location         : "Berlin Germany"
   email            : "larry1695@163.com"
   uri              :
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "/liuyun16"
+  github           : "liuyun16"
   gitlab           :
   google_plus      :
   keybase          :
@@ -251,7 +251,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
       
 
