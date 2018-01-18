@@ -6,19 +6,7 @@ author_profile: true
 comments: true
 ---
 
-This is my blog page.
-
-
----
-title:  "Blogs"
-layout: archive
-permalink: /Blogs/
-author_profile: true
-comments: true
----
-
-Most of my blogs are technical blogs written mainly for my own reference. I'd be happy if any of you find them useful too.
-
+我的博客文章希望记录自己的学习点滴、生活感悟。在文字中成长。
 
 
 <ul>

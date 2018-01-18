@@ -2,8 +2,7 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url:  /About/
+
   - title: "Blogs"
     url: /Blogs/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
@@ -13,7 +12,9 @@ main:
   #   url: /collection-archive/
   #- title: "Tags"
   #  url: /tags/
-  - title: "Gallery"
+  - title: "技术"
+    url: /Techs/
+  - title: "STM Gallery"
     url: /gallery/
-  - title: "External Links"
-    url: /links/
+  - title: "About"
+    url:  /About/
