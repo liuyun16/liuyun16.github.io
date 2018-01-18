@@ -19,6 +19,7 @@ Markdown测试：
 
 $$E=mc^2$$ is a inline formula
 
+多行公式：
 $$ 
 \begin{aligned} \dot{x} &= \sigma(y-x) \\ 
 \dot{y} &= \rho x - y - xz \\ 
