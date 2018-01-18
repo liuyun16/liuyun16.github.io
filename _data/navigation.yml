@@ -12,9 +12,13 @@ main:
   #   url: /collection-archive/
   #- title: "Tags"
   #  url: /tags/
-  - title: "技术"
-    url: /Techs/
+  - title: "Research"
+    url: /research/
+  - title: "Tools"
+    url: /tools/
   #- title: "STM Gallery"
   #  url: /gallery/
+  - title: "笔记"
+    url: /notes/
   - title: "About"
     url:  /About/

@@ -8,11 +8,11 @@
 minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "刘云的博客"
-title_separator          : "-"
+title_separator          : "<"
 name                     : "刘云"
-description              : "点滴记录，文字安人"
+description              : "点滴记录，文字修己"
 url                      : "https://liuyun16.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,7 +87,7 @@ author:
   name             : "刘云"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "物理化学博士"
-  location         : "Berlin Germany"
+  location         : "Berlin,Germany"
   email            : "larry1695@163.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -239,7 +239,22 @@ compress_html:
   ignore:
     envs: development
 
-
+# Collections
+# collections_dir: docs
+collections:
+   research:
+     output: true
+     permalink: /:collection/:path/
+  #  blogs:
+  #    output: true
+  #    permalink: /:collection/:path/
+   tools:
+     output: true
+     permalink: /:collection/:path/
+   notes:
+    output: true
+    permalink: /:collection/:path/
+     
 # Defaults
 defaults:
   # _posts
@@ -253,5 +268,41 @@ defaults:
       comments: # true
       share: false
       related: false
-      
 
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: false
+      related: false
+      mathjax: true
+
+  # _tools
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: false
+      related: true
+      mathjax: true
+
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
