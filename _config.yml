@@ -22,7 +22,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : liuyun16-github-io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -268,9 +268,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: false
       related: false
+      mathjax: true
 
   # _research
   - scope:
@@ -280,7 +281,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: false
       related: false
       mathjax: true
@@ -309,3 +310,4 @@ defaults:
       comments: true
       share: true
       related: true
+      mathjax: true
