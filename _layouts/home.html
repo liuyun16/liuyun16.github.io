@@ -2,10 +2,48 @@
 layout: archive
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<section class="page__content" itemprop="text">
+  <h2>博客</h2>
+<p>博客栏目主要记录一些个人思考。</p>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+
+
+{% for post in site.posts limit:3 %}
+  <!-- {% include archive-single.html %} -->
+  <li class="listing-item">
+    <!-- <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> -->
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
 
-{% include paginator.html %}
+
+<section class="page__content" itemprop="text">
+  <h2>研究</h2>
+<p>研究栏目主要记录物理化学科研，读书笔记。</p>
+
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+
+
+{% for post in site.research limit:3 %}
+<li class="listing-item">
+  <!-- <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> -->
+  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+
+<!-- {% include paginator.html %} -->
+
+<section class="page__content" itemprop="text">
+  <h2>工具</h2>
+<p>工具栏目主要记录化学人也可以懂得计算机、编程知识。</p>
+
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
+
+
+{% for post in site.tools limit:3 %}
+<li class="listing-item">
+  <!-- <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time> -->
+  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+</li>
+{% endfor %}
