@@ -1,5 +1,6 @@
 ---
 type: tools
+title: 使用jekyll搭建博客
 ---
 
 [Jekyll on Windows | jekyll](https://jekyllrb.com/docs/windows/)
