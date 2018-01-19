@@ -68,13 +68,37 @@
 
 .page__content {
   h2 {
+    font-size: 1.3em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    // color:#159957;
   }
+
+  h3,h4 {
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+    line-height: 1.225;
+    text-align: left;
+	  // color:#0000FF;
+  }
+
+  h6 {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: normal;
+    color: #2F4F4F;
+  
+  }
+	
+
+
+
 
   p {
     font-size: 0.8em;
   }
+
+
 
   li,
   dl {
@@ -280,6 +304,7 @@
 
   strong {
     margin-right: 10px;
+    color:#159957;
   }
 }
 

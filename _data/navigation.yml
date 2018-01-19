@@ -3,16 +3,14 @@ main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
-  - title: "Blogs"
+  - title: "博客"
     url: /Blogs/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "作品年表"
-    url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   #- title: "Tags"
   #  url: /tags/
-  - title: "Research"
+  - title: "研究"
     url: /research/
   # - title: "Tools"
   #   url: /tools/
@@ -20,5 +18,7 @@ main:
   #  url: /gallery/
   - title: "工具"
     url: /tools/
+  - title: "作品年表"
+    url: /year-archive/
   - title: "About"
     url:  /About/
