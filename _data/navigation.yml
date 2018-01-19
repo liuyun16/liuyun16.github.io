@@ -14,11 +14,11 @@ main:
   #  url: /tags/
   - title: "Research"
     url: /research/
-  - title: "Tools"
-    url: /tools/
+  # - title: "Tools"
+  #   url: /tools/
   #- title: "STM Gallery"
   #  url: /gallery/
-  - title: "笔记"
-    url: /notes/
+  - title: "工具"
+    url: /tools/
   - title: "About"
     url:  /About/

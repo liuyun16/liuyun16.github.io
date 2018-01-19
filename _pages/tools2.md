@@ -7,7 +7,7 @@ author_profile: true
 
 化学人也能懂得一些软件应用、编程技术
 
-<ul>
+<!-- <ul>
   {% for post in site.tools %}
     {% unless post.next %}
       <font color="#778899"><h2>{{ post.date | date: '%Y %b' }}</h2></font>
@@ -21,4 +21,8 @@ author_profile: true
     {% endunless %}
    {% include archive-single.html %}
   {% endfor %}
-</ul>
+</ul> -->
+
+{% for post in site.tools %}
+  {% include archive-single.html %}
+{% endfor %}

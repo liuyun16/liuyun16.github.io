@@ -1,15 +1,10 @@
 ---
-type: "tools"
+type: tools
 ---
 
 [Jekyll on Windows | jekyll](https://jekyllrb.com/docs/windows/)
 提供了windows下的Ubuntu实现，感觉很不错。可以试试。
 
-- 结果：New jekyll site installed in /home/LiuYun/my_blog.
-然后，跳转到该目录下，就可以输入：`bundle exec jekyll serve`
-，这样，就可以在http://127.0.0.1:4000/ ，实现本地博客的访问了。
-我的Ubuntu上，`~`目录在：
-`/home/LiuYun`
 
 - 写得很不错的：
 [使用Github Pages建独立博客 | BeiYuu.com](http://beiyuu.com/github-pages)
@@ -23,8 +18,6 @@ type: "tools"
 关于navigation.yml中不同tab间的识别，还需要进一步学习。
 
 
-## 新建一个博客目录在windows可访问路径：
-`/mnt/c/Users/LiuYun`
 
 ### 其他
 #### 数学公式 
@@ -48,7 +41,6 @@ mmistake作者解答：
 然后，在博客文章的yaml头部声明：
 `mathjax: true`
 
-## 私密博客？？的实现？
 
 ## 多个导航栏
 - [Github Pages博客搭建过程记录 @ 技术杂货铺hjmao](https://huajianmao.github.io/how-i-setup-this-blog/)

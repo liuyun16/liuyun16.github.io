@@ -242,12 +242,15 @@ compress_html:
 # Collections
 # collections_dir: docs
 collections:
+  #  docs:
+  #    collections_dir: docs
+  #    output: true
    research:
      output: true
      permalink: /:collection/:path/
-  #  blogs:
-  #    output: true
-  #    permalink: /:collection/:path/
+   blogs:
+     output: true
+     permalink: /:collection/:path/
    tools:
      output: true
      permalink: /:collection/:path/
@@ -282,23 +285,23 @@ defaults:
       related: false
       mathjax: true
 
+  # # _tools
+  # - scope:
+  #     path: ""
+  #     type: tools
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: # true
+  #     share: false
+  #     related: true
+  #     mathjax: true
+
   # _tools
   - scope:
       path: ""
       type: tools
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: false
-      related: true
-      mathjax: true
-
-  # _notes
-  - scope:
-      path: ""
-      type: notes
     values:
       layout: single
       author_profile: true

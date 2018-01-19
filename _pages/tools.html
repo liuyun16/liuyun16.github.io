@@ -10,7 +10,7 @@ author_profile: true
 {% endfor %} -->
 
 <ul>
-    {% for post in site.notes %}
+    {% for post in site.tools %}
       {% unless post.next %}
         <font color="#778899"><h2>{{ post.date | date: '%Y %b' }}</h2></font>
       {% else %}
