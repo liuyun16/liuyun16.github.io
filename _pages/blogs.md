@@ -24,9 +24,9 @@ comments: true
   {% endfor %}
 </ul>
 
-<ul>
+<!-- <ul>
   {% for post in site.research %}
-    <!-- {% unless post.next %}
+    {% unless post.next %}
       <font color="#778899"><h2>{{ post.date | date: '%Y %b' }}</h2></font>
     {% else %}
       {% capture year %}{{ post.date | date: '%Y %b' }}{% endcapture %}
@@ -34,7 +34,7 @@ comments: true
       {% if year != nyear %}
         <font color="#778899"><h2>{{ post.date | date: '%Y %b' }}</h2></font>
       {% endif %}
-    {% endunless %} -->
+    {% endunless %}
    {% include archive-single.html %}
   {% endfor %}
-</ul>
+</ul> -->

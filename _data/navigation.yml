@@ -6,8 +6,8 @@ main:
   - title: "Blogs"
     url: /Blogs/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "作品年表"
+    url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   #- title: "Tags"
