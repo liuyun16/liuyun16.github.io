@@ -65,4 +65,4 @@ title: 使用Markdown写作并插入参考文献（atom+pandoc+Zotero）
 3. [Academic Markdown and Citations · Chris Krycho](http://www.chriskrycho.com/2015/academic-markdown-and-citations.html#fn1)，参考大概的转换文档的流程；
 4. [My workflow for transforming academic Markdown into beautiful Word documents](http://raphaelkabo.com/blog/posts/markdown-to-word)，参考流程；
 5. [Scrivener for academic writing with Zotero](https://davepwsmith.github.io/academic-scrivener-howto/)，参考流程；
-6. [panzer/panzer at master · msprev/panzer](https://github.com/msprev/panzer/tree/master/panzer)，这个可，以更多地定义转换的格式，比如行距等。
+6. [panzer/panzer at master · msprev/panzer](https://github.com/msprev/panzer/tree/master/panzer)，这个可以更多地定义转换的格式，比如行距等。
