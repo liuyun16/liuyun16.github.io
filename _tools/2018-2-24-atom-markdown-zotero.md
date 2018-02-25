@@ -1,6 +1,7 @@
 ---
 type: tools
 title: 使用Markdown写作并插入参考文献（atom+pandoc+Zotero）
+date:  2018-2-24
 ---
 
 ## 1. 缘起
@@ -17,13 +18,13 @@ title: 使用Markdown写作并插入参考文献（atom+pandoc+Zotero）
 
 ## 3.具体步骤及解释
 1. Better BibTeX for zotero是专门为LaTex引文管理与插入的插件，在zotero中安装之后，可以在每个item的`info`中，看到自动生成了`citations key`:
+
 ![img](https://farm5.staticflickr.com/4606/39569069925_76f6c32b69_o.png)
 
 这个key唯一对应于一篇文献。
 
 2. 通过导出，生成`library.bib`文件。
   - Zotero主菜单`File`-->`Export libray`-->`Format`勾选`Better BibLaTeX`，其他的Translator options可选；
-
 ![img](https://farm5.staticflickr.com/4759/40464977711_6ed5afc958_o.png)
 
  - 导出在特定的文件夹中，如`\MyProject\Library.bib`;

@@ -7,6 +7,7 @@ author_profile: true
 
 <ul class="archive-post-list">
 {% assign postsALL = site.posts | concat: site.tools | concat: site.research %}
+<!-- 将post，tools和research中的所以文章列表组成一个集合 -->
    {% for post in postsALL %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
@@ -22,7 +23,7 @@ author_profile: true
    {% endfor %}
 </ul>
 
-<!-- 
+<!--
 <ul class="listing">
 {% assign postsALL = site.posts | concat: site.tools | concat: site.research %}
 {% for post in postsALL %}
