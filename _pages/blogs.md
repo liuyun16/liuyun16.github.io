@@ -2,7 +2,7 @@
 title:  "Blogs"
 layout: archive
 permalink: /Blogs/
-author_profile: false
+author_profile: true
 comments: true
 ---
 点滴记录，对抗年华。
