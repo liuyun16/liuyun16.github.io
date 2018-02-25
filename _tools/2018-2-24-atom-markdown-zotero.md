@@ -23,6 +23,7 @@ title: 使用Markdown写作并插入参考文献（atom+pandoc+Zotero）
 
 2. 通过导出，生成`library.bib`文件。
   - Zotero主菜单`File`-->`Export libray`-->`Format`勾选`Better BibLaTeX`，其他的Translator options可选；
+
 ![img](https://farm5.staticflickr.com/4759/40464977711_6ed5afc958_o.png)
 
  - 导出在特定的文件夹中，如`\MyProject\Library.bib`;
@@ -43,19 +44,25 @@ title: 使用Markdown写作并插入参考文献（atom+pandoc+Zotero）
     note = {00243}
   }
 ```
+
 可以简单地理解为，`citations-key`为`SanchezOXYGENVACANCYMODEL1987`，其中对应了title，author以及期刊名称等信息。。最后生成的参考文献格式依赖于其中的内容。
 
 3. 根据所投杂志要求，选取好自己所需要的参考文献格式，如选取`acs-nano`的引用格式，到网站（[Zotero Style Repository](https://www.zotero.org/styles)）上下载csl文件。
 4. 将写作好的markdown文件此例为`input.md`与`library.bib`与`acs-nano.csl`文件放置于同一个文件夹中，
 5. 下载并安装[Pandoc - Installing pandoc](http://pandoc.org/installing.html)。
 6. 打开计算机终端或命令行，windows可以为`cmd.exe`或者`powershell.exe`,Linux为`bash`.
-7. 运行`pandoc input.md --bibliography=library.bib --csl=acs-nano.csl -o output.docx`
+7. 运行`pandoc input.md --bibliography=library.bib --csl=acs-nano.csl -o output.docx`，
 
 结果：你可以得到一个名为`output.docx`的文件。上述命令将 `input.md`转化成了`output.docx`。
 
+通过这个方法，可以成功地实现.markdown 到.docx文件，.pdf（需要LaTex软件）等格式的文件了。
+成功打通从markdown到其它格式文档的通道。
+
+
 ## 更多参考：
-1. [Using Pandoc - YouTube](https://www.youtube.com/watch?v=N31E_NZYQQY&t=450s)；
-2. [What's a bib file? - YouTube](https://www.youtube.com/watch?v=JF9bvYmcdmY)；
-3. [Academic Markdown and Citations · Chris Krycho](http://www.chriskrycho.com/2015/academic-markdown-and-citations.html#fn1)；
-4. [My workflow for transforming academic Markdown into beautiful Word documents | Raphael Kabo](http://raphaelkabo.com/blog/posts/markdown-to-word)；
-5. [Scrivener for academic writing with Zotero](https://davepwsmith.github.io/academic-scrivener-howto/)
+1. [Using Pandoc - YouTube](https://www.youtube.com/watch?v=N31E_NZYQQY&t=450s)，很好的pandoc转化markdown文件的教程；
+2. [What's a bib file? - YouTube](https://www.youtube.com/watch?v=JF9bvYmcdmY)，介绍bib文件；
+3. [Academic Markdown and Citations · Chris Krycho](http://www.chriskrycho.com/2015/academic-markdown-and-citations.html#fn1)，参考大概的转换文档的流程；
+4. [My workflow for transforming academic Markdown into beautiful Word documents](http://raphaelkabo.com/blog/posts/markdown-to-word)，参考流程；
+5. [Scrivener for academic writing with Zotero](https://davepwsmith.github.io/academic-scrivener-howto/)，参考流程；
+6. [panzer/panzer at master · msprev/panzer](https://github.com/msprev/panzer/tree/master/panzer)，这个可，以更多地定义转换的格式，比如行距等。
