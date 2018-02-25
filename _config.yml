@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "刘云的博客"
+title                    : "岁月流韵"
 title_separator          : "<"
-name                     : "刘云"
+name                     : "流云"
 description              : "点滴记录，文字修己"
 url                      : "https://liuyun16.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "刘云"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "物理化学博士"
+  bio              : "理科博士，兴趣广泛，喜欢折腾，努力成为持续学习和写作的行动者。"
   location         : "Berlin,Germany"
   email            : "larry1695@163.com"
   uri              :
