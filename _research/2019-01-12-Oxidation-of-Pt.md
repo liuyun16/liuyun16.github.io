@@ -1,4 +1,7 @@
-![](https://farm5.staticflickr.com/4620/28296543699_6457d6fc87_o.jpg)
+---
+type: research
+title: Pt与O2的羁绊
+---
 
 ## 1. 前言
 
