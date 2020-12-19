@@ -1,0 +1,56 @@
+{
+    "created_time": "2018-12-15T21:10:21Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-12-15T21:10:21Z",
+            "modified_time": "2018-12-15T21:10:21Z",
+            "name": "Guang-Xue-Jiao-Cheng.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-12-15T21:10:21Z",
+            "modified_time": "2018-12-15T21:10:21Z",
+            "name": "Home.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2018-12-15T21:10:21Z",
+            "modified_time": "2018-12-15T21:10:21Z",
+            "name": "README.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": ".github"
+        },
+        {
+            "name": "_pages"
+        },
+        {
+            "name": "_posts"
+        },
+        {
+            "name": "_research"
+        },
+        {
+            "name": "_site"
+        },
+        {
+            "name": "_tools"
+        }
+    ],
+    "version": "1"
+}
